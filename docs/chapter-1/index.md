@@ -1,0 +1,2 @@
+# Web3 Basics & Ecosystem Overview
+Welcome to the beginning of your journey into Web3 and the Stacks ecosystem. If you're coming from a Web2 background, you're already familiar with centralized platforms, APIs, and cloud infrastructure. Web3 introduces a new paradigm — one where users own their data, applications are decentralized, and trust is built into the protocol itself. This section will help you understand the foundational concepts of Web3 and how Stacks fits into the broader ecosystem.
