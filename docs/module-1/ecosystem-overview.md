@@ -21,13 +21,12 @@ Here’s how PoX works:
 
 This mechanism ties the security of Stacks directly to Bitcoin’s immutability and finality. Each Stacks block references a Bitcoin block, ensuring that the Stacks history is cryptographically anchored to Bitcoin.
 
-[Diagram explaining how Proof of Transfer works](https://lw3-misc-images.s3.us-east-2.amazonaws.com/46bc8923-5e97-4f17-b9e2-2d97c98265f4)
-
+![Diagram explaining how Proof of Transfer works](https://lw3-misc-images.s3.us-east-2.amazonaws.com/46bc8923-5e97-4f17-b9e2-2d97c98265f4)
 source - [learnweb3.io](https://learnweb3.io/degrees/stacks-developer-degree/introduction-to-stacks/introduction-to-stacks)
 
 ### What is Stacks?
 
-Stacks is a layer-1 blockchain that brings smart contracts and decentralised apps to Bitcoin. It does this without modifying Bitcoin itself. Instead, it uses PoX to settle transactions on Bitcoin while enabling expressive smart contracts written in Clarity — a secure, predictable language.
+Stacks is a layer-2 blockchain that brings smart contracts and decentralised apps to Bitcoin. It does this without modifying Bitcoin itself. Instead, it uses PoX to settle transactions on Bitcoin while enabling expressive smart contracts written in Clarity — a secure, predictable language.
 
 **Key characteristics:**
 
@@ -38,8 +37,7 @@ Stacks is a layer-1 blockchain that brings smart contracts and decentralised app
 
 Stacks enables developers to build dApps that benefit from Bitcoin’s stability and decentralisation while offering programmability that Bitcoin alone cannot support.
 
-[Layered architecture diagram showing Bitcoin base layer, Stacks layer, and Clarity smart contracts](https://docs.stacks.co/~gitbook/image?url=https%3A%2F%2F2842511454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FH74xqoobupBWwBsVMJhK%252Fuploads%252Fgit-blob-dfb22d998899604417b072202f52fa3cdda377ef%252FFrame%2520316126254.jpg%3Falt%3Dmedia&width=768&dpr=4&quality=100&sign=7d7c7a5e&sv=2)
-
+![Layered architecture diagram showing Bitcoin base layer, Stacks layer, and Clarity smart contracts](https://docs.stacks.co/~gitbook/image?url=https%3A%2F%2F2842511454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FH74xqoobupBWwBsVMJhK%252Fuploads%252Fgit-blob-dfb22d998899604417b072202f52fa3cdda377ef%252FFrame%2520316126254.jpg%3Falt%3Dmedia&width=768&dpr=4&quality=100&sign=7d7c7a5e&sv=2)
 source - [StacksDocs](https://docs.stacks.co/stacks-101/bitcoin-connection)
 
 ### Stacks Architecture and Security
