@@ -1,0 +1,2 @@
+# Ecosystem Basics
+This module introduces the core components of the Stacks development ecosystem. You’ll learn about the programming language used to write smart contracts, the tools required to build and test applications, and the APIs and SDKs that connect your frontend to the blockchain. By the end of this module, you’ll be ready to set up your development environment and begin writing Clarity smart contracts.
