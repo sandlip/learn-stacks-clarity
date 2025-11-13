@@ -1,0 +1,2 @@
+# Smart Contracts & Advanced Programming
+This module introduces you to smart contracts on the Stacks blockchain — what they are, how they work, and how to write them using Clarity. You’ll also explore advanced language features like control flow, data structures, and error handling. Finally, we’ll cover common vulnerabilities and best practices to help you write secure, production-ready contracts.
