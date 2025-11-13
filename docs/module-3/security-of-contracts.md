@@ -1,10 +1,10 @@
 ## Security in Smart Contracts
 
 ### Common Vulnerabilities
-Clarity’s design avoids entire classes of vulnerabilities by removing features like loops, recursion, and dynamic dispatch. However, developers must still be vigilant about logic errors, unsafe assumptions, and poor access control.
+Clarity’s design avoids entire classes of vulnerabilities by removing features like loops, recursion, and dynamic dispatch. However, developers must remain vigilant about logic errors, unsafe assumptions, and poor access control.
 
 #### 1. Reentrancy
-Reentrancy occurs when a contract calls an external contract that then calls back into the original contract before the first call finishes. This can lead to inconsistent state or double withdrawals.
+Reentrancy occurs when a contract calls an external contract that then calls back into the original contract before the first call finishes. This can lead to an inconsistent state or double withdrawals.
 
 **Clarity mitigation:**
 - Clarity does not support asynchronous calls or fallback functions — all calls are synchronous and explicit by design to ensure transparency and determinism.
@@ -25,7 +25,7 @@ In languages like Solidity, arithmetic operations can overflow silently. Clarity
 - Use `asserts!` to enforce bounds.
 
 #### 3. Unchecked Conditions
-Failing to validate caller identity or input values can lead to unauthorized access or broken logic.
+Failing to validate caller identity or input values can lead to unauthorised access or broken logic.
 
 **Example:**
 ```Clojure
@@ -36,11 +36,11 @@ Failing to validate caller identity or input values can lead to unauthorized acc
 ```
 **Mitigation:**
 ```Clojure
-  (asserts! (is-eq tx-sender (var-get owner)) "Unauthorized")
+  (asserts! (is-eq tx-sender (var-get owner)) "Unauthorised")
 ```
 
 #### 4. Unbounded Storage Growth
-Maps and lists can grow indefinitely if not managed properly. This can lead to bloated state and performance issues.
+Maps and lists can grow indefinitely if not managed properly. This can lead to bloating and performance issues.
 
 **Mitigation:**
 - Use expiration logic or pruning functions.
@@ -69,7 +69,7 @@ Reference: [Post-Conditions – Stacks Docs](https://docs.stacks.co/transactions
 #### 2. Validate Inputs and Caller Identity
 Always check:
 
-- `tx-sender` for authorization
+- `tx-sender` for authorisation
 - Input types and ranges
 - Optional values using `match`
 
@@ -79,7 +79,7 @@ Use assertions to enforce invariants and abort transactions early.
   (asserts! (>= amount u0) "Negative amount not allowed")
 ```
 
-#### 4. Minimize State Changes
+#### 4. Minimise State Changes
 Avoid unnecessary writes to data variables. Use read-only functions for queries and isolate logic into private functions.
 
 #### 5. Write Comprehensive Tests

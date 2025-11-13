@@ -50,7 +50,7 @@ Accessing tuple fields:
 ```
 
 ### Enums (via Constants)
-Enums can be modeled using constants:
+Enums can be modelled using constants:
 ```Clojure
   (define-constant STATUS_PENDING u0)
   (define-constant STATUS_APPROVED u1)

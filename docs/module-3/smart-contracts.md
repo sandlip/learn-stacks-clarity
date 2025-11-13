@@ -98,7 +98,7 @@ Clarinet supports unit testing via TypeScript and the Clarinet SDK. You can simu
   npx run test
 ```
 
-Reference: [Clarinet SDK Introduction](https://docs.stacks.co/reference/clarinet-js-sdk/unit-testing)
+Reference: [Clarinet SDK Introduction](https://docs.stacks.co/build/clarinet-js-sdk/unit-testing)
 
 #### 4. Deployment
 Clarinet provides deployment tooling that helps you move from local development to production networks. Whether you're testing on devnet, staging on testnet, or launching on mainnet, Clarinet streamlines the process
